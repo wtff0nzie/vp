@@ -1,0 +1,42 @@
+{
+  "name": "VPS Test",
+  "description": "Pattern tests",
+  "url": "",
+  "keywords": [
+    "search"
+  ],
+  "author": {
+    "name": "wtff0nzie",
+    "email": "stopbeing@deziddon.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtff0nzie/vp"
+  },
+  "readmeFilename": "readme.md",
+  "main": "./server",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "dependencies": {
+    "aws-sdk": "*",
+    "bcrypt": "*",
+    "cheerio": "*",
+    "doublemetaphone": "*",
+    "htmlstrip-native": "*",
+    "formidable": "1.0.14",
+    "glossary": "*",
+    "mongojs": "0.18.1",
+    "node-uuid": "*",
+    "request": "*",
+    "s3-upload-stream": "*",
+    "simpl3s": ">= 0.4.1",
+    "speakeasy-nlp": "*",
+    "stopwords": "0.0.4",
+    "ua-list": "*",
+    "unfluff": "*",
+    "tough-cookie": "*",
+    "xml2json": "*"
+  }
+}
