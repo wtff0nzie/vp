@@ -1,5 +1,5 @@
 console.log('Engine fired!');
 
 EVENTS.on('hit', function (payload) {
-    payload.res.end('Hey! ' + Date.now());
+    payload.res.end('Hey! ' + Date.now() + ' ' + process.env.DB);
 });
